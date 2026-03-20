@@ -26,8 +26,8 @@ Once models are downloaded, everything can run fully offline.
 Example with conda:
 
 ```bash
-conda create -n audio_m3 python=3.12 -y
-conda activate audio_m3
+conda create -n text2voices python=3.12 -y
+conda activate text2voices
 ```
 
 Or with `venv` (Linux/macOS):
@@ -45,7 +45,7 @@ From the project root:
 
 ```bash
 pip install --upgrade pip
-pip install -r requirements_audio_m3.txt
+pip install -r requirements_audio.txt
 
 # Optional but recommended if you want to use Chatterbox
 pip install chatterbox-tts
